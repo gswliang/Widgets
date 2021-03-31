@@ -37,10 +37,6 @@ const Dropdown = ({ label, selected, setSelected, options }) => {
     );
   });
 
-  const style = {
-    color: `${selected.value}`,
-  };
-
   return (
     <div ref={ref} className="ui form">
       <div className="field">
