@@ -1,7 +1,8 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
 
-const key = "AIzaSyCHUCmpR7cT_yDFHC98CZJy2LTms-IwDlM";
+// const key = "AIzaSyCHUCmpR7cT_yDFHC98CZJy2LTms-IwDlM";
+const key = "AIzaSyCRsMwSAenufxqbRatMpbGGTt298OwNyLM";
 
 const Convert = ({ language, input }) => {
   const [debounce, setDebounce] = useState(input);
